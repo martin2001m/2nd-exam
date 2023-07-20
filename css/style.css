@@ -1,0 +1,119 @@
+.header {
+  background-color: #fff;
+  margin-bottom: 82px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sitenav-list {
+  display: flex;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 40px;
+}
+.sitenav-link {
+  color: #333333;
+}
+.header-link {
+  padding: 14px 33px 14px 42px;
+  border-radius: 9px;
+  background: var(--3, linear-gradient(122deg, #f32c6d 29.57%, #cb1d95 85.47%));
+  color: #fff;
+}
+.hero {
+  margin-bottom: 90px;
+}
+
+.hero-container { 
+  max-width:1187px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-title {
+  font-family: "Manrope", sans-serif;
+  color: #333;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65px;
+}
+.hero-title-span {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 65px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.hero-desc {
+  font-family: "Manrope ", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 43px;
+}
+.hero-link {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+.hero-img {
+}
+.hero-bottom {
+  border-color: #f32c6d;
+}
+
+.statistica {
+  padding: 45px 60px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+
+.statistica-title {
+  color:  #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.statistica-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.numbers :not(:last-child), .text{
+    padding-right: 60px;
+}
+.linia{
+    border-right: 1px solid black;
+}
+.number {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px; /* 120% */
+  color: #cc0f4e;
+}
+.bole {
+  font-size: 24px;
+}
+
+.footer-container {
+  margin-top: 50px;
+  background-color: #fff;
+  border: 2px solid red;
+}
+
